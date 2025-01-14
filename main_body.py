@@ -13,6 +13,8 @@ print("Your Total number of Choices are: ", count)
 print("This is just a funny project, Use at your own risk, /n  We are not responsible for any cause that happend to you by using this automated decision maker.")
 
 def final_decision(Choices):
-  decision = Choices.choice()
-  return decision 
+  decision = random.choice(Choices)
+  statement = "Randomly choosen choice is: "
+  print(statement + decision)
 
+final_decision(Choices)
