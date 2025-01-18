@@ -18,3 +18,5 @@ def final_decision(Choices):
   print(statement + decision)
 
 final_decision(Choices)
+
+realesed = ""
