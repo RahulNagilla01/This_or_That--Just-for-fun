@@ -1,5 +1,7 @@
 import random
-
+print("-------------------------------------------")
+print("Welcome to This or That?")
+print("-------------------------------------------")
 number_of_choices = int(input("Please Give the number of Choices"))
 
 Choices = []
@@ -19,4 +21,3 @@ def final_decision(Choices):
 
 final_decision(Choices)
 
-realesed = ""
